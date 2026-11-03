@@ -1,0 +1,60 @@
+import { SampleLandmark } from '../types';
+
+export const SAMPLE_LANDMARKS: SampleLandmark[] = [
+  {
+    id: 'colosseum',
+    name: 'Colosseum',
+    city: 'Rome',
+    country: 'Italy',
+    tagline: 'Flavian Amphitheatre, masterpiece of Imperial Roman engineering',
+    imageUrl: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'eiffel-tower',
+    name: 'Eiffel Tower',
+    city: 'Paris',
+    country: 'France',
+    tagline: 'Wrought-iron lattice monument from the 1889 Exposition Universelle',
+    imageUrl: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'sagrada-familia',
+    name: 'Basílica de la Sagrada Família',
+    city: 'Barcelona',
+    country: 'Spain',
+    tagline: 'Antoni Gaudí’s organic Catalan Modernisme masterpiece under construction since 1882',
+    imageUrl: 'https://images.unsplash.com/photo-1583779457319-5bb8b7cefc80?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'brooklyn-bridge',
+    name: 'Brooklyn Bridge',
+    city: 'New York City',
+    country: 'United States',
+    tagline: 'Iconic neo-Gothic suspension bridge spanning the East River since 1883',
+    imageUrl: 'https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'taj-mahal',
+    name: 'Taj Mahal',
+    city: 'Agra',
+    country: 'India',
+    tagline: 'Ivory-white marble mausoleum commissioned in 1631 by Mughal Emperor Shah Jahan',
+    imageUrl: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'fushimi-inari',
+    name: 'Fushimi Inari-taisha',
+    city: 'Kyoto',
+    country: 'Japan',
+    tagline: 'Thousands of vermilion torii gates winding through sacred Mount Inari',
+    imageUrl: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'big-ben',
+    name: 'Big Ben & Palace of Westminster',
+    city: 'London',
+    country: 'United Kingdom',
+    tagline: 'Elizabeth Tower neo-Gothic clock tower standing over the River Thames',
+    imageUrl: 'https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1200&q=80',
+  },
+];

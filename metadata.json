@@ -1,0 +1,10 @@
+{
+  "name": "AuraSight AR - Photo Tourism & Landmark Narrator",
+  "description": "Capture city landmarks to instantly identify them with Gemini 4 Argon, verify historical facts with Google Search grounding, and experience holographic AR-style narrated tours with Gemini 3.8 Flash TTS.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
